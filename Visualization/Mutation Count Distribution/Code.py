@@ -1,0 +1,6 @@
+# 5. Sequence length distribution (non-zero mutations)
+mutations_per_sequence = np.sum(sequence_matrix, axis=1)
+axes[1,1].hist(mutations_per_sequence, bins=20, edgecolor='black')
+axes[1,1].set_xlabel('Number of Mutations per Sequence')
+axes[1,1].set_ylabel('Frequency')
+axes[1,1].set_title('Mutation Count Distribution')
