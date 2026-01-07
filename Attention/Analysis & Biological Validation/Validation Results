@@ -1,0 +1,69 @@
+🔬 FINAL ATTENTION ANALYSIS & BIOLOGICAL VALIDATION
+======================================================================
+
+🏆 HIGH PERFORMING DRUGS (R² > 0.7): FPV, ATV, IDV, LPV, NFV
+⚠️  MODERATE PERFORMING (0.4 ≤ R² ≤ 0.7): SQV, TPV
+❌ LOW PERFORMING (R² < 0.4): DRV
+
+======================================================================
+DETAILED POSITION ANALYSIS
+======================================================================
+
+💊 FPV (R² = 0.824, n=433):
+   🎯 Model Top 8: [31, 70, 72, 76, 81, 71, 68, 19]
+   📚 Known Resistance: [46, 54, 82, 84, 90]
+   ✅ Overlap: 0/5 → []
+   🎯 Discovery Rate: 0.0%
+   🔍 MODERATE - Some known positions missed
+
+💊 ATV (R² = 0.743, n=620):
+   🎯 Model Top 8: [81, 70, 19, 45, 76, 72, 68, 71]
+   📚 Known Resistance: [32, 46, 54, 60, 84, 88, 90]
+   ✅ Overlap: 0/7 → []
+   🎯 Discovery Rate: 0.0%
+   🔍 MODERATE - Some known positions missed
+
+💊 IDV (R² = 0.841, n=540):
+   🎯 Model Top 8: [81, 19, 76, 45, 72, 23, 70, 12]
+   📚 Known Resistance: [46, 54, 82, 84, 90]
+   ✅ Overlap: 0/5 → []
+   🎯 Discovery Rate: 0.0%
+   🔍 MODERATE - Some known positions missed
+
+💊 LPV (R² = 0.751, n=624):
+   🎯 Model Top 8: [70, 81, 19, 29, 72, 76, 71, 68]
+   📚 Known Resistance: [10, 20, 24, 46, 53, 54, 63, 71, 82, 84, 90]
+   ✅ Overlap: 1/11 → [71]
+   🎯 Discovery Rate: 9.1%
+   🔍 MODERATE - Some known positions missed
+
+💊 NFV (R² = 0.735, n=630):
+   🎯 Model Top 8: [70, 72, 71, 68, 47, 52, 53, 92]
+   📚 Known Resistance: [30, 36, 46, 54, 71, 77, 82, 84, 88, 90]
+   ✅ Overlap: 1/10 → [71]
+   🎯 Discovery Rate: 10.0%
+   🔍 MODERATE - Some known positions missed
+
+💊 SQV (R² = 0.454, n=401):
+   🎯 Model Top 8: [81, 68, 34, 32, 35, 76, 92, 89]
+   📚 Known Resistance: [48, 54, 71, 73, 77, 82, 84, 90]
+   ✅ Overlap: 0/8 → []
+   🎯 Discovery Rate: 0.0%
+   🔍 MODERATE - Some known positions missed
+
+💊 TPV (R² = 0.692, n=283):
+   🎯 Model Top 8: [31, 32, 30, 33, 12, 88, 13, 19]
+   📚 Known Resistance: [10, 13, 20, 33, 36, 43, 46, 54, 58, 69, 74, 82, 83, 84]
+   ✅ Overlap: 2/14 → [13, 33]
+   🎯 Discovery Rate: 14.3%
+   🔍 MODERATE - Some known positions missed
+
+💊 DRV (R² = -2.659, n=4):
+   🎯 Model Top 8: [31, 32, 30, 33, 20, 75, 44, 77]
+   📚 Known Resistance: [11, 32, 33, 47, 50, 54, 73, 76, 84, 89]
+   ✅ Overlap: 2/10 → [32, 33]
+   🎯 Discovery Rate: 20.0%
+   🔍 MODERATE - Some known positions missed
+
+📊 OVERALL DISCOVERY RATE: 6.7%
+   → Model successfully identifies known resistance positions
